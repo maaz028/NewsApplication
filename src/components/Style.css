@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    top: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+.color {
+
+    background-color: black;
+    z-index: -1;
+}
+
+
+
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    position: relative;
+    font-weight: bold;
+}
+.text-center{
+    font-family: 'Anton', sans-serif ;
+    position: relative;
+    text-decoration: underline;
+
+    font-size: 50px;
+    font-weight: bold;
+text-shadow: 0px 0px 10px black;
+
+padding-top: 93px;
+}
+.img{
+    width: 28px;
+
+filter: invert(100%);
+}
+.navbar-brand{
+    font-family: 'Anton', sans-serif !important;
+    font-weight: normal !important;
+}
+.navbar{
+    box-shadow: 0px 0px 5px black;
+    
+}
+.nav-link{
+    font-family: 'Anton', sans-serif !important;
+    font-weight: normal !important;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: white;
+}
+.start-100{
+    left: -8px !important;
+    top: -12px !important;
+    transform:none !important;
+}
+
+.cardimgtop, .cardtitle, .cardtext{
+    padding: 10px;
+}
+.card{
+    background: none;
+    border-color: white;
+    box-shadow: 0px 0px 11px black;
+}
+.preloader{
+    position: fixed;
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+    background: url('./Spinner-3.gif') no-repeat center;
+    background-color: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.back {
+    position: relative;
+    height: 100%;
+}
+
+.back::before {
+    content: '';
+    position: absolute;
+    background: url('./projectsb.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.6;
+    filter: blur(2px);
+    -webkit-filter: blur(4px);
+}
+.btn,.readmore{
+    font-weight: bold;
+}
+.card img{
+    border-radius: 13px;
+}
